@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <!--hint-->
+    <string name="hint_search">Enter parent/state</string>
+
+    <!--URL  -->
+    <string name="single_format_url">http://api.wunderground.com/api/4c28e84a1bbf089d/hourly/{0}.json</string>
+    <string name="double_format_url">http://api.wunderground.com/api/4c28e84a1bbf089d/hourly/q/{0}/{1}.json</string>
+
+    <!--Symbol-->
+    <string name="temperature">{0}\u2103 / {1}\u2109</string>
+
+    <!--Dialog-->
+    <string name="dialog_delete">Remove Country</string>
+    <string name="invalid_message">Invalid Country / State</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>
